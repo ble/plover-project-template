@@ -1,0 +1,17 @@
+{
+  "comment": [
+    "certainly could put explanatory comments in as valid but ignored JSON",
+    "add a line with",
+      "../deps/google-closure-templates/javascript",
+    "to paths and add the relevant submodule to get a-templatin'"],
+
+  "closure-library": "../deps/google-closure-library/closure/goog",
+
+  "paths": [
+    "../deps/example-dependency",
+    "../src"],
+
+  "mode": "SIMPLE",
+
+  "level": "VERBOSE"
+}

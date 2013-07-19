@@ -1,0 +1,9 @@
+{
+  "inherits": "root-config.ijson",
+  "id": "example",
+  "comment": [
+    "the inputs only need to include the entry points to your code",
+    "all dependencies and transitive dependencies of your entry points",
+    "will be automatically handled."],
+  "inputs": [ "../src/example.js" ]
+}

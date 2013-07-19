@@ -1,0 +1,3 @@
+[submodule "deps/google-closure-library"]
+	path = deps/google-closure-library
+	url = /Users/ellisbben/Workspace/go-tp/client/deps/google-closure-library/
