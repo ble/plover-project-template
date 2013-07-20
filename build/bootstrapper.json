@@ -1,0 +1,4 @@
+{
+  "id": "bootstrapper",
+  "inputs": [ "../src/bootstrapper.js" ]
+}

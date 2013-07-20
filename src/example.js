@@ -1,6 +1,7 @@
 goog.provide('example.Trivial');
 
 goog.require('example.dependency.Fooer');
+goog.require('goog.math');
 
 goog.scope(function() { //scope begins
 
@@ -20,7 +21,15 @@ _.Trivial.prototype.doThang = function() {
 }
 
 _.Trivial.prototype.causeWarning = function() {
-  return Math.abs(this.dep.get());
+  return goog.math.sum(this.dep.get());
 };
 
+
+
 }); //scope ends
+
+//script entry point:
+var myTrivial = new example.Trivial("what ");
+
+document.write(myTrivial.doThang());
+
