@@ -30,6 +30,6 @@ _.Trivial.prototype.causeWarning = function() {
 
 //script entry point:
 var myTrivial = new example.Trivial("what ");
+document.body.appendChild(document.createTextNode(myTrivial.doThang()));
 
-document.write(myTrivial.doThang());
 
